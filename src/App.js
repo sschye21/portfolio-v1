@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './pages/Home'
 import ColourModal from './components/ColourModal';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from 'react-router-dom';
@@ -10,12 +10,12 @@ import {
 function App () {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<ColourModal />} />
           <Route path="/home" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
