@@ -17,17 +17,16 @@ function About () {
 
     return (
         <div id="about">
-            <div className="relative h-full" style={{backgroundColor: c2, marginTop: -3}}>
-                <Tab.Group >
+            <div className="relative h-full pt-12" style={{backgroundColor: c2, marginTop: -3}}>
+                <Tab.Group>
                     <Tab.List>
-                        <div className="absolute flex flex-col right-0 textBody gap-24 mt-16">
+                        <div className="flex flex-row justify-center textBody gap-24 pb-8">
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
                                     className={                                    
                                         selected  ? 'text-black underline font-bold' : 'text-black'
                                     }
-                                    style={{transform: 'rotate(90deg)'}}
                                     >About</button>)} 
                             </Tab>
                             <Tab as={Fragment}>
@@ -36,7 +35,6 @@ function About () {
                                     className={                                    
                                         selected  ? 'text-black underline font-bold' : 'text-black'
                                     }
-                                    style={{transform: 'rotate(90deg)'}}
                                     >Skills</button>)} 
                             </Tab>
                             <Tab as={Fragment}>
@@ -45,20 +43,19 @@ function About () {
                                     className={                                    
                                         selected  ? 'text-black underline font-bold' : 'text-black'
                                     }
-                                    style={{transform: 'rotate(90deg)'}}
                                     >Experience</button>)} 
                             </Tab>
                         </div>
                     </Tab.List>
                     
                     <Tab.Panels>
-                        <div className="flex justify-center pt-24">
+                        <div className="flex justify-center">
                             <Tab.Panel>
                                 <div className="flex flex-col items-center text-center">
                                     <p className="text-3xl pb-8 titleFont px-16">
                                         Hi! My name is Steven, nice to meet you!
                                     </p>
-                                    <p className="max-w-4xl px-20 textBody mb-32">
+                                    <p className="max-w-4xl px-16 textBody mb-32">
                                         I'm an ambitious tech enthusiast and a keen software developer who loves building. I'm curious yet confident, 
                                         and perpetually work on constantly improving and upskilling myself one step at a time.
                                         I work as a Global Web Developer Intern at Adobe Australia where I develop webpages as per design mockups for the Adobe.com 
@@ -71,7 +68,7 @@ function About () {
                                     <p className="text-3xl titleFont px-16 mb-8">
                                         Skills
                                     </p>
-                                    <p className="max-w-3xl px-20 textBody">
+                                    <p className="max-w-3xl px-16 textBody">
                                         My skills are wideranging, spanning across multiple creative and technical disciplines. I'm constantly learning and 
                                         looking to improve myself everyday and am in a constant pursuit of skills that can help develop me into a well rounded professional.
                                     </p>
@@ -111,10 +108,7 @@ function About () {
                         </div>
                     </Tab.Panels>
                 </Tab.Group>
-                
             </div>
-            
-            
         </div>
     )
 }
