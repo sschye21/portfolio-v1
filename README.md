@@ -18,5 +18,5 @@ yarn start
 
 ## Project Overview
 - Utilised React.js and Tailwind CSS to develop a personal portfolio website
-- First project utilising React.js and Tailwind CSS
+- First project utilising React.js, Three.js and Tailwind CSS
 - Integrated multiple React packages (eg. react-typical, styled-components, react-three/fiber, react-three/drei, etc.)
