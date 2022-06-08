@@ -17,7 +17,7 @@ function Projects () {
         <div id="projects">
             <div className='flex flex-col items-center mt-28 mb-40'>
                 <h2 className="text-center titleFont text-3xl mb-5">Projects</h2>
-                <p className="text-center textBody text-lg">Here are a few projects I've worked on recently!</p>
+                <p className="text-center textBody text-lg max-w-xl">Here are a few projects I've worked on recently!</p>
                 <div className='min-h-min mt-20 px-32'>
                     {/* change lg:grid-cols-3 when more projects are added */}
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-23 items-center text-center'>
