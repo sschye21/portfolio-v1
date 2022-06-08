@@ -7,7 +7,7 @@ import { BiTennisBall } from 'react-icons/bi'
 function Projects () {
 
     const projects = [
-        {desc: "Personal Portfolio Website", link: 'https://github.com/sschye21/sc-website', img: website},
+        {desc: "Personal Portfolio Website", link: 'https://github.com/sschye21/stevenchye.me', img: website},
         {desc: "UNIT website", link: 'http://unit.org.au/', img: unit}
     ]
 
