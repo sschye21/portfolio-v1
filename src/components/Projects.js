@@ -8,7 +8,7 @@ function Projects () {
 
     const projects = [
         {desc: "Personal Portfolio Website", link: 'https://github.com/sschye21/sc-website', img: website},
-        {desc: "University Network for Investing and Trading (UNIT) website", link: 'http://unit.org.au/', img: unit}
+        {desc: "UNIT website", link: 'http://unit.org.au/', img: unit}
     ]
 
     const c3 = localStorage.getItem('colour3')
