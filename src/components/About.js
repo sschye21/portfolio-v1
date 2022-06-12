@@ -20,7 +20,7 @@ function About () {
             <div className="relative h-full pt-12" style={{backgroundColor: c2, marginTop: -3}}>
                 <Tab.Group>
                     <Tab.List>
-                        <div className="flex flex-row justify-center textBody gap-24 pb-8 px-16">
+                        <div className="flex flex-row justify-center textBody gap-20 pb-8">
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
