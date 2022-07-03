@@ -14,6 +14,7 @@ function App () {
         <Routes>
           <Route path="/" element={<ColourModal />} />
           <Route path="/home" element={<Home />} />
+          <Route element={<Home />} />
         </Routes>
       </HashRouter>
     </>
